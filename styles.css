@@ -9,7 +9,7 @@
 body{
     background-color: #fbfff2;
 
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 nav{
     position: fixed;
@@ -67,7 +67,7 @@ nav i{
     margin-left: 30px;
 }
 nav a:hover{
-    color: #445D48;
+    color: #478652;
     background: #F7FFE5;
     border-radius: 10px;
 }
@@ -78,35 +78,17 @@ nav:hover{
     
 }
 .container{
-    margin-left: 110px;
-    
+    margin-left: 110px;   
 
 }
 .home{
-    background: url("assets/bg4.jpg") no-repeat;
+    background: url("assets/bg14.jpg") repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    transition: all 10s ease-in-out;
-    animation: change 15s infinite ease-in-out;
+    transition: all 10s ease;
 }
-@keyframes change{
-    0%{
-        background-image: url("assets/bg4.jpg");
-    }
-    25%{
-        background-image: url("assets/bg12.jpg");
-    }
-    50%{
-        background-image: url("assets/bg13.jpg");
-    }
-    75%{
-        background-image: url("assets/bg14.jpg");
-    }
-    100%{
-        background-image: url("assets/bg4.jpg");
-    }
-}
+
 
 .home h1{
     position: absolute;
@@ -325,11 +307,11 @@ footer ul li a:hover {
 /*media queries*/
 @media (max-width: 1200px) {
     nav {
-        width: 80px;
+        width: 90px;
     }
 
     nav:hover {
-        width: 200px;
+        width: 240px;
     }
 
     nav a {
@@ -353,7 +335,7 @@ footer ul li a:hover {
 
     .home h1 {
         font-size: 50px;
-        left: 15%;
+        left: 25%;
     }
 
     .about h2 {
